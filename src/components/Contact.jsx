@@ -14,13 +14,13 @@ export default function Contact() {
 
         <div className="mx-auto mt-8 grid max-w-xl gap-3 sm:grid-cols-3">
           <a
-            href="mailto:you@example.com"
+            href="mailto:hello@yashvinthan.dev"
             className="flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-white hover:bg-white/10"
           >
             <Mail className="h-5 w-5" /> Email
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://linkedin.com/in/yashvinthan"
             target="_blank"
             rel="noreferrer"
             className="flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-white hover:bg-white/10"
@@ -28,7 +28,7 @@ export default function Contact() {
             <Linkedin className="h-5 w-5" /> LinkedIn
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/yashvinthan"
             target="_blank"
             rel="noreferrer"
             className="flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-white hover:bg-white/10"

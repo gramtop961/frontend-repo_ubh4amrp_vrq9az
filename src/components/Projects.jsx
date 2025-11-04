@@ -6,21 +6,21 @@ const projects = [
     description:
       'Visualize pathfinding and sorting algorithms in real time with adjustable parameters and performance metrics.',
     tech: ['React', 'TypeScript', 'D3.js'],
-    links: { github: '#', demo: '#' },
+    links: { github: 'https://github.com/yashvinthan/algoviz', demo: '#' },
   },
   {
     title: 'DevNotes — Markdown Knowledge Base',
     description:
       'A fast, local‑first note app with full‑text search, tagging, and keyboard‑first navigation.',
     tech: ['Vite', 'IndexedDB', 'Tailwind'],
-    links: { github: '#', demo: '#' },
+    links: { github: 'https://github.com/yashvinthan/devnotes', demo: '#' },
   },
   {
     title: 'CloudQueue — Distributed Job Runner',
     description:
       'Horizontally scalable job queue with retry logic, dead‑lettering, and observability dashboard.',
     tech: ['FastAPI', 'Redis', 'Docker'],
-    links: { github: '#', demo: '#' },
+    links: { github: 'https://github.com/yashvinthan/cloudqueue', demo: '#' },
   },
 ];
 
@@ -43,7 +43,7 @@ export default function Projects() {
           </div>
           <h2 className="mt-4 text-3xl font-semibold sm:text-4xl">Projects</h2>
           <p className="mt-2 text-white/70">
-            A mix of systems, frontend, and tooling that highlights problem solving and polish.
+            Full‑stack and AI‑powered projects that reflect a balance of performance, accessibility, and developer experience.
           </p>
         </div>
 

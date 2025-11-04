@@ -1,5 +1,5 @@
 import Spline from '@splinetool/react-spline';
-import { Sparkles, Code2, Cpu, Rocket } from 'lucide-react';
+import { Sparkles, Code2, Rocket } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -20,16 +20,19 @@ export default function Hero() {
       <div className="relative z-10 mx-auto flex max-w-7xl flex-col items-center px-4 pt-32 sm:pt-36 lg:pt-40">
         <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-white/80 backdrop-blur">
           <Sparkles className="h-3.5 w-3.5 text-cyan-300" />
-          Building interactive, performant web experiences
+          yashvinthan.dev
         </div>
 
         <h1 className="mt-6 text-center text-4xl font-semibold leading-tight sm:text-5xl md:text-6xl">
-          Computer Science Engineering Student
-          <span className="block bg-gradient-to-r from-cyan-300 via-sky-400 to-indigo-400 bg-clip-text text-transparent">Crafting Code & Creative Interfaces</span>
+          Hi, I’m <span className="bg-gradient-to-r from-cyan-300 via-sky-400 to-indigo-400 bg-clip-text text-transparent">Yashvinthan</span>
+          <span className="mt-2 block text-2xl font-normal text-white/80 sm:text-3xl">
+            Computer Science Engineer • Full‑Stack Developer • AI Enthusiast
+          </span>
         </h1>
 
         <p className="mt-4 max-w-2xl text-center text-white/80">
-          I blend algorithms with aesthetics to ship reliable, accessible, and delightful products. Passionate about full‑stack development, systems design, and human‑computer interaction.
+          I build fast, elegant, and accessible products. I love systems thinking, crafting intuitive UIs, and
+          shipping reliable full‑stack apps with measurable impact.
         </p>
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
@@ -51,8 +54,8 @@ export default function Hero() {
           {[
             { label: 'Frontend', stat: 'React • Vite' },
             { label: 'Backend', stat: 'FastAPI • Node' },
-            { label: 'Systems', stat: 'C++ • OS' },
-            { label: 'AI/DS', stat: 'Python • ML' },
+            { label: 'Systems', stat: 'C/C++ • OS' },
+            { label: 'AI/ML', stat: 'Python • ML' },
           ].map((item) => (
             <div key={item.label} className="rounded-xl border border-white/10 bg-white/5 p-4 text-center">
               <div className="text-xs uppercase tracking-wide text-white/60">{item.label}</div>
